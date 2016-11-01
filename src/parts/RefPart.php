@@ -18,17 +18,18 @@ trait RefPart {
 
 	/**
 	 *
-	 * @return the string
+	 * @return string
 	 */
 	public function getRef() {
 		return $this->ref;
 	}
 
-	/**
-	 *
-	 * @param
-	 *        	$ref
-	 */
+    /**
+     *
+     * @param $ref
+     *
+     * @return $this
+     */
 	public function setRef($ref) {
 		$this->ref = $ref;
 		$this->hasRef = $ref !== null;
