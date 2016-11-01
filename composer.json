@@ -1,5 +1,5 @@
 {
-	"name" : "theinpu/gossi-swagger",
+	"name" : "gossi/swagger",
 	"description" : "A php library to manipulate swagger specifications (source - https://github.com/gossi/swagger)",
 	"type" : "library",
 	"license" : "MIT",
